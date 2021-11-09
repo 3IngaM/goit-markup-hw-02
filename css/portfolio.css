@@ -1,0 +1,123 @@
+/ *цвет основного текста #212121*/
+/* вторичный цвет текста rgba (0, 0, 0, 0)
+*/
+/* белый #ffffff */
+/* акцент#2196f3 */
+/* вторичный цвет фона #757575*/ {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+/* Site nav */
+logo:hover {
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+    color: var(--accent-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+text-decoration: none;
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+{
+    color: var (--title-text-color);
+font-weight: 500;
+font-size: 16 px;
+line-height: 1.63;
+}
+
+.site-nav .link.current {
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+}
+
+/* Hero */
+.hero-title {
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+}
+/* Filtre on the pages */
+
+.section-title {
+    color: var(--title-text-color);
+   font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+
+.section-description {
+   
+font-size: 16px;
+line-height: 1.88;
+}
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+
+    font-weight: 500;
+    font-size: 14px;
+line-height: 1.71;
+    text-align: center;
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: blue;
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-color: transparent;
+}
+
+.footer
+
+/* Footer */
+.contacts-adress,
+.contacts-link,
+.contacts-link link {
+   color: var(--title-text-color);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
