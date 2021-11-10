@@ -3,7 +3,9 @@
 */
 /* белый #ffffff */
 /* акцент#2196f3 */
-/* вторичный цвет фона #757575*/ {
+/* вторичный цвет фона #757575*/ 
+
+body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -31,7 +33,7 @@ logo:hover {
 
 .site-nav .link {
   color: var(--accent-color);
-
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -40,43 +42,54 @@ logo:hover {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var (--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16 px;
   line-height: 1.63;
+  text-align: center;
 }
 
 .site-nav .link.current {
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  text-align: center;
 }
 
 /* Hero */
 .hero-title {
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  text-align: center;
 }
 /* Filtre on the pages */
 
 .section-title {
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-align: center;
 }
+
 .section-description {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.88;
+  text-align: center;
 }
 
 /* Button */
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
-
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -93,6 +106,7 @@ logo:hover {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
   border-color: transparent;
+  text-align: center;
 }
 
 .footer
@@ -102,4 +116,7 @@ logo:hover {
 .contacts-link,
 .contacts-link link {
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
 }
