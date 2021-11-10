@@ -26,75 +26,73 @@
 }
 /* Site nav */
 logo:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.site-nav .link{
-    color: var(--accent-color);
+.site-nav .link {
+  color: var(--accent-color);
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
-text-decoration: none;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
 .site-nav .link:hover,
-.site-nav .link:focus,
-{
-    color: var (--title-text-color);
-font-weight: 500;
-font-size: 16 px;
-line-height: 1.63;
+.site-nav .link:focus {
+  color: var (--title-text-color);
+  font-weight: 500;
+  font-size: 16 px;
+  line-height: 1.63;
 }
 
 .site-nav .link.current {
-    color: var(--title-text-color);
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 /* Hero */
 .hero-title {
-    color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 /* Filtre on the pages */
 
 .section-title {
-    color: var(--title-text-color);
-   font-weight: 700;
-font-size: 18px;
-line-height: 2.0;
-
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
 .section-description {
-   
-font-size: 16px;
-line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* Button */
 .button {
-    color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
 
-    font-weight: 500;
-    font-size: 14px;
-line-height: 1.71;
-    text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
 }
 
 .button.primary {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    border-color: blue;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: blue;
 }
 
 .button.secondary {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-    border-color: transparent;
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+  border-color: transparent;
 }
 
 .footer
@@ -103,21 +101,5 @@ line-height: 1.71;
 .contacts-adress,
 .contacts-link,
 .contacts-link link {
-   color: var(--title-text-color);
-
-
+  color: var(--title-text-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
