@@ -5,29 +5,49 @@
 /* акцент#2196f3 */
 /* вторичный цвет фона #757575*/ 
 
-body {
-  background-color: var(--primary-bg-color);
+.body {
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  background-color: var(--primary-white-color);
+
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
+
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
 
 /* Logo */
 .logo {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
+.logo-first {
+    color:var(--accent-color);
+  }
+
+
+.logo-second {
+    color: var(--primary-text-color);
+   }
+.logo-third {
+color: var(--primary-white-color);
+
+}
 /* Site nav */
-logo:hover {
+.logo:hover, focus {
   color: var(--accent-color);
 }
 
@@ -41,7 +61,7 @@ logo:hover {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var (--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16 px;
@@ -50,17 +70,16 @@ logo:hover {
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
-}
+  }
 
 /* Hero */
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -70,7 +89,7 @@ logo:hover {
 /* Filtre on the pages */
 
 .section-title {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -79,6 +98,7 @@ logo:hover {
 }
 
 .section-description {
+  color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.88;
@@ -87,23 +107,25 @@ logo:hover {
 
 /* Button */
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  background-color: #ffffff;
   font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
+  border-style: none;
+  font-size: 16px;
+  font-style: 500;
+  line-height: 1.62;
   text-align: center;
 }
 
 .button.primary {
-  color: var(--primary-white-color);
+  color: var(--primary-white-text-color);
   background-color: var(--accent-color);
   border-color: blue;
+  text-align: center;
 }
 
 .button.secondary {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   border-color: transparent;
   text-align: center;
@@ -112,10 +134,26 @@ logo:hover {
 .footer
 
 /* Footer */
+.logo {
+    color: var(--primary-text-color);
+font-family: Raleway, cursive;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+.logo-first {
+    color:var(--accent-color);
+  }
+
+}
+.logo-second {
+    color: var(--primary-text-color);
+   }
+
 .contacts-adress,
 .contacts-link,
 .contacts-link link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;

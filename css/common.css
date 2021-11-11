@@ -1,17 +1,21 @@
 :root {
-  --primary-text-color: rgba (0, 0, 0, 0);
-  --title-text-color: #212121;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-white-text-color: #ffffff;
+  --secondary-white-text-color: rgba (0, 0, 0, 0.6);
   --primary-white-color: #ffffff;
 }
 
+}
+
 body {
-  background-color: var(--pimary-bg-color)
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 .logo {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 
 logo:hover {
@@ -23,9 +27,9 @@ logo:hover {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
