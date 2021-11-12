@@ -17,6 +17,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
 .list {
         list-style: none;
 }
@@ -30,6 +35,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 .logo:hover, 
@@ -98,6 +104,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 
 /* Auth-nav*/
@@ -107,12 +114,13 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 
 .auth-nav .contacts-link link {
-color: var(--secondary-text-color)
+color: var(--secondary-text-color);
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -133,6 +141,20 @@ letter-spacing: 0.06em;
 text-transform: uppercase
 }
 
+
+/* Button */
+.button {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  
+  font-family: Roboto, sans-serif;
+  border-style: none;
+  font-size: 16px;
+  font-style: 500;
+  line-height: 1.62;
+  text-align: center;
+}
+
 .button-primary link {
     color: var(--primary-white-text-color);
     background-color: var(--accent-color);
@@ -140,9 +162,9 @@ text-transform: uppercase
        
 font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
 
 display: flex;
 align-items: center;
@@ -154,9 +176,9 @@ letter-spacing: 0.06em;
    color: var(--primary-text-color);
    font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -166,9 +188,9 @@ text-transform: uppercase;
 color: var(--secondary-text-color);
     font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -178,9 +200,9 @@ letter-spacing: 0.03em;
     color: var(--primary-text-color);
     font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -193,9 +215,9 @@ letter-spacing: 0.03em;
     font-family: Roboto, sans-serif; 
     font-family: Roboto;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;}
 
@@ -206,7 +228,7 @@ color: var(--primary-text-color);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em; 
 }
@@ -215,9 +237,9 @@ letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -233,19 +255,34 @@ text-decoration: none;
 }
 .logo-first {
     color:var(--accent-color);
-  }
-
+    text-decoration: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
 }
+
+
 .logo-second {
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
    }
 .contacts-adress{
     color: var(--primary-text-color)
     font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -254,19 +291,19 @@ color: rgba(0, 0, 0, 0.6);
 }
 font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 .contacts-link link {
 color: rgba(0, 0, 0, 0.6);
   font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
-
 }
