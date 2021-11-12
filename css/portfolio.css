@@ -10,13 +10,12 @@
   background-color: var(--primary-white-color);
 
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-
 
 .link {
   color: var(--primary-text-color);
@@ -31,123 +30,123 @@ letter-spacing: 0.02em;
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.logo:hover, .logo:focus
- {
-    color: var(--accent-color);
-    background-color: var(--primary-white-text-color);
- }
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-text-color);
+}
 
-.logo-first {
-    color:var(--accent-color);
+.logo-first-header {
+  color: var(--accent-color);
   font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.logo-second {
-    color: var(--primary-text-color);
-    font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-   }
-.logo-third {
-color: var(--primary-white-color);
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+.logo-second-header {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-third-footer {
+  color: var(--primary-white-text-color);
+  background-color: #2f303a;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 /* Site nav */
 
 .site-nav .link.current {
   color: var(--primary-text-color);
-   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-  }
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 
 .site-nav .link {
   color: var(--accent-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-} 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--primary-text-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link-contact {
   color: var(--primary-text-color);
-   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em; 
-text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* Auth-nav */
 
-.auth-nav contacts-link {
+.auth-nav contact-link {
   color: var(--secondary-text-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;}
-
-.auth-nav contacts-link link {
-   color: var(--secondary-text-color);
-   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
+.auth-nav contact-link link {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 
 /* Hero */
 .hero-title {
-  color: var(--primary-text-color);
-  
+  color: var(--primary-white-text-color);
+  background-color: var();
 }
 /* Button */
 .button {
   color: var(--primary-white-text-color);
   background-color: #ffffff;
-  
 }
 
 .button.primary link {
@@ -169,83 +168,85 @@ letter-spacing: 0.02em
 .section-title {
   color: var(--primary-text-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2.0;
-letter-spacing: 0.06em;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .section-description {
   color: var(--secondary-text-color);
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
-
 
 .footer
 
 /* Footer */
 .logo {
-    color: var(--primary-text-color);
-font-family: Raleway, cursive;
-font-size: 26px;
-line-height: 1.19;
-text-decoration: none;
+  color: var(--primary-text-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
-.logo-first {
-    color:var(--accent-color);
-   font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
- 
-  }
-
-}
-.logo-second {
-    color: var(--primary-text-color);
-    font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.logo-first-footer {
+  color: var(--accent-color);
+  background-color: #2f303a;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
-.contacts-adress{
-color: var(--primary-text-color);
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em
+.logo-second-footer {
+  color: var(--primary-white-text-color);
+  background-color: #2f303a;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.contacts-adress {
+  color: var(--primary-white-text-color);
+  background-color: #2f303a;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .contacts-link {
-  color: rgba(0, 0, 0, 0.6);
-  аont-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+  color: var(--primary-white-text-color);
+  background-color: #2f303a;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .contacts-link link {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--primary-white-text-color);
+  background-color: #2f303a;
   font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
