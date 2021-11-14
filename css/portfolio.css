@@ -18,12 +18,15 @@
 }
 
 .link {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
 }
 
 /* Logo */
@@ -118,14 +121,15 @@
 
 /* Auth-nav */
 
-.auth-nav contact-link {
-  color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.auth-nav contacts-mailto link {
+color: var(--secondary-text-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 
 .auth-nav contact-link link {
@@ -145,27 +149,47 @@
 }
 /* Button */
 .button {
-  color: var(--primary-white-text-color);
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .button.primary link {
-  color: var(--primary-white-text-color);
+  color: var(--primary-white-text-color)
   background-color: var(--accent-color);
-  border-color: blue;
-  text-align: center;
+  border: blue; 
+  border-radius: 4px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .button.secondary link {
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
-  border-color: transparent;
-  text-align: center;
+  background-color: #f5f4fa;
+  border: none; 
+  border-radius: 4px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /* Filtre on the pages */
 
-.section-title {
+.item-title {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -176,7 +200,7 @@
   text-align: center;
 }
 
-.section-description {
+.item-description {
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -231,7 +255,7 @@
 }
 
 .contacts-link {
-  color: var(--primary-white-text-color);
+  color: var(--secondary-white-text-color);
   background-color: #2f303a;
   font-family: Roboto;
   font-style: normal;
@@ -241,7 +265,7 @@
   letter-spacing: 0.03em;
 }
 .contacts-link link {
-  color: var(--primary-white-text-color);
+  color: var(--secondary-white-text-color);
   background-color: #2f303a;
   font-family: Roboto;
   font-style: normal;
