@@ -12,14 +12,17 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  background-color: #2f303a;
-}
+ }
+
+ .section-hero { 
+background-color: #2f303a;
+ }
 
 .logo {
   color: var(--primary-text-color);
 }
 
-logo:hover {
+.logo:hover {
   color: var(--accent-color);
 }
 .site-nav .link {
@@ -33,4 +36,15 @@ logo:hover {
 
 .site-nav .link.current {
   color: var(--primary-text-color);
+}
+.active-btn :hover, :focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-text-color);
+}
+
+
+
+
+.footer-title {
+    background-color: #2f303a;
 }
