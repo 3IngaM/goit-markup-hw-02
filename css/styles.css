@@ -164,12 +164,13 @@ text-transform: uppercase
    background-color: var(--accent-color);
    border: blue; 
   border-radius: 4px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
+/* identical to box height, or 187% */
+
 display: flex;
 align-items: center;
 text-align: center;
