@@ -19,6 +19,7 @@ letter-spacing: 0.02em;
 
 .link {
   color: var(--secondary-text-color);
+  font-family: Roboto;
   text-decoration: none;
 }
 
@@ -262,7 +263,7 @@ text-decoration: none;
 }
 .logo-first-footer {
     color:var(--accent-color);
-    background-color:#2f303a; ;
+    background-color:#2f303a; 
     text-decoration: none;
 font-family: Raleway;
 font-style: normal;
@@ -276,7 +277,7 @@ text-decoration: none;
 
 .logo-second-footer {
     color: var(--primary-white-text-color);
-    background-color: #2f303a;;
+    background-color: #2f303a;
     text-decoration: none;
     font-family: Raleway;
 font-style: normal;
@@ -289,7 +290,7 @@ text-decoration: none;
 
 .contacts-adress {
     color: var(--primary-white-text-color);
-    background-color: #2f303a;;
+    background-color: #2f303a;
     font-family: Roboto;
 font-style: normal;
 font-weight: 400;
@@ -299,8 +300,8 @@ letter-spacing: 0.03em;
 }
 
 .contacts-link {
-color: var(--secondary-white-tex-color);
-background-color: #2f303a;;
+color: rgba(255, 255, 255, 0.6);
+background-color: #2f303a;
 
 font-family: Roboto;
 font-style: normal;
@@ -312,8 +313,8 @@ text-decoration: none;
 }
 
 .contacts-link link {
-color: var(--secondary-white-tex-color);
-background-color: #2f303a;;
+color: rgba(255, 255, 255, 0.6);
+background-color: #2f303a;
   font-family: Roboto;
 font-style: normal;
 font-weight: 400;
