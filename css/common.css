@@ -1,3 +1,11 @@
+/ *цвет основного текста #212121*/
+/* вторичный цвет текста rgba (0, 0, 0, 0)
+*/
+/* белый #ffffff */
+/* акцент#2196f3 */
+/* вторичный цвет фона #757575*/
+}
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -7,7 +15,6 @@
   --primary-white-color: #ffffff;
 }
 
-}
 
 body {
   color: var(--primary-text-color);
@@ -25,6 +32,7 @@ background-color: #2f303a;
 .logo:hover {
   color: var(--accent-color);
 }
+
 .site-nav .link {
   color: var(--accent-color);
 }
