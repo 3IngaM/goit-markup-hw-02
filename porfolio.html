@@ -5,48 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/portfolio.css"
+    <link rel="stylesheet" href="./css/styles.css"
   </head>
   <body class="page">
     <!-- Шапка сайта-->
     <header>
       <title>text-decoration</title>
-      <a href="/"
-        ><span class="logo-first-header">Web</span
-        ><span class="logo-second-header">Studio</span></a
+      <a class="logo-first-header" href="" lang="en"
+        >Web<span class="logo-second-header">Studio</span></a
       >
       <nav>
         <!--Навигация на другие страницы-->
         <ul class="site-nav list">
-          <li><a class="link current" href="./index.html">Студия</a></li>
-          <li><a class="link" href="">Портфолио</a></li>
-          <li><a class="link-contact" href="">Контакты</a></li>
+          <li><a class="nav-link current" href="./index.html">Студия</a></li>
+          <li><a class="nav-link" href="">Портфолио</a></li>
+          <li><a class="nav-link" href="">Контакты</a></li>
         </ul>
         <ul class="auth-nav list">
           <li>
-            <a class="contacts-mailto link" href="">info@devstudio.com</a>
+            <a class="contacts-link-up" href="">info@devstudio.com</a>
           </li>
-          <li><a class="contact-link link" href="">+38 096 111 11 11</a></li>
+          <li><a class="contacts-link-up" href="">+38 096 111 11 11</a></li>
         </ul>
       </nav>
     </header>
     <!--Уникальный контент страницы-->
     <main>
       <!--Герой-->
-      <section class="hero">
-        <h1 class="hero-title"></h1>
+      <section class="section">
+        <h1 class="section-hero-title"></h1>
         <!--Фильтр страницы-->
         <ul class="list">
           <li>
-            <button type="button" class="button-primary link">Все</button>
+            <button type="button" class="portfolio-button current">Все</button>
           </li>
           <li>
             <button type="button" class="button-secondary link">
@@ -133,17 +129,26 @@
     <!--Подвал страницы-->
     <footer class="footer">
       <section class="footer-title">
-        <a href=""
-          ><span class="logo-first-footer">Web</span
-          ><span class="logo-third-footer">Studio</span></a
-        >
-        <address class="contacts-adress">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <a class="contacts-link" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="contacts-link link" href="tel:">+38 099 111 11 11</a>
+        <ul>
+          <li>
+            <a class="logo-first-footer link" href="" lang="en"
+              >Web<span class="logo-second-footer">Studio</span></a
+            >
+          </li>
+          <li>
+            <address class="contacts-adress">
+              г. Киев, пр-т Леси Украинки, 26
+            </address>
+          </li>
+          <li>
+            <a class="contacts-link-down" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-link-down" href="tel:">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </section>
     </footer>
   </body>
