@@ -26,6 +26,7 @@ body {
 }
 
 /* Logo */
+
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
@@ -46,12 +47,13 @@ body {
 .logo-second-header {
   color: var(--primary-text-color);
 }
+
 .logo-third-footer {
   color: var(--primary-white-text-color);
   background-color: var(--primary-black-color);
 }
-/* Site nav */
 
+/* Site nav */
 .nav-link {
   color: var(--primary-text-color);
   font-style: normal;
@@ -61,6 +63,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .logo-first-header:hover,
 .logo-first-header:focus,
 .logo-second-header:hover,
@@ -78,6 +81,7 @@ body {
 }
 
 /* Auth-nav*/
+
 .contacts-link-up {
   color: var(--secondary-text-color);
   font-family: inherit;
@@ -89,10 +93,12 @@ body {
 }
 
 /* Hero */
+
 .section-hero {
   color: var(--primary-white-text-color);
   background-color: var(--primary-black-color);
 }
+
 .hero-title {
   color: var(--primary-white-text-color);
   font-family: inherit;
@@ -100,7 +106,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -108,7 +113,7 @@ body {
 .section-hero-title {
   color: var(--primary-white-text-color);
   background-color: var(--primary-black-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -119,12 +124,12 @@ body {
 }
 
 /* Button */
+
 .button {
   color: var(--primary-white-text-color);
   background-color: var(--accent-color);
   font-family: inherit;
   border-radius: 4px;
-  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -137,16 +142,21 @@ body {
 .button:focus {
   background-color: var(--accent-second-color);
 }
+
 .button,
 .portfolio-btn-pointer,
 .current-btn,
 .button-secondary-pointer {
   cursor: pointer;
 }
+
 .button-secondary link:hover,
 .button-secondary link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-text-color);
+}
+
+.button-secondary-pointer {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -154,9 +164,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .portfolio-btn {
   background-color: var(--third-text-color);
   color: var(--primary-text-color);
+}
+
+.portfolio-button-pointer.current-btn {
   border: 0;
   font-family: inherit;
   font-weight: 500;
@@ -175,9 +189,10 @@ body {
 }
 
 /* Peculiarities */
+
 .benefits-title {
   color: var(--primary-text-color);
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -186,6 +201,7 @@ body {
 
 .benefits-description {
   color: var(--secondary-text-color);
+  font-family: inherit;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -193,14 +209,13 @@ body {
 }
 
 /* What are we doing */
+
 .section-title {
   color: var(--primary-text-color);
   background-color: var(--third-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
 }
 
@@ -208,26 +223,27 @@ body {
 .section-our-team {
   background-color: var(--third-text-color);
 }
+
 .our-team-section-title {
   color: var(--primary-text-color);
   background-color: var(--third-text-color);
   font-family: Roboto, sans-serif;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
 }
+
 .our-team .list {
   background-color: var(--third-text-color);
 }
+
 .our-team-item {
   background-color: var(--primary-light-color);
 }
+
 .our-team-item-title {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -237,7 +253,7 @@ body {
 
 .our-team-item-description {
   color: var(--secondary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -249,8 +265,7 @@ body {
 
 .item-title {
   color: var(--primary-text-color);
-  font-family: Roboto;
-
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -259,8 +274,7 @@ body {
 
 .item-description {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-
+  font-family: Roboto, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -275,6 +289,7 @@ body {
 .footer-title {
   background-color: var(--primary-black-color);
 }
+
 .logo {
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
@@ -282,6 +297,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .logo-first-footer {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
