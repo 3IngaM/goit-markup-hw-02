@@ -311,7 +311,7 @@ body {
   text-decoration: none;
 }
 
-contacts-link-down {
+.contacts-link-down {
   color: rgba(255, 255, 255, 0.6);
   font-family: inherit;
   font-style: normal;
