@@ -137,16 +137,20 @@ body {
 .button:focus {
   background-color: var(--accent-second-color);
 }
-
-.button-secondary link {
-  color: var(--primary-text-color);
-  background-color: var(--third-text-color);
+.button,
+.portfolio-btn-pointer,
+.current-btn,
+.button-secondary-pointer {
+  cursor: pointer;
+}
+.button-secondary link:hover,
+.button-secondary link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-text-color);
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -162,6 +166,7 @@ body {
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
+
 .current-btn,
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -272,16 +277,14 @@ body {
 }
 .logo {
   color: var(--title-text-color);
-  background-color: var(--primary-black-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 .logo-first-footer {
   color: var(--accent-color);
-  background-color: var(--primary-black-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -290,8 +293,7 @@ body {
 
 .logo-second-footer {
   color: var(--primary-white-text-color);
-  background-color: var(--primary-black-color);
-  font-family: Raleway;
+  font-family: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -300,7 +302,6 @@ body {
 
 .contacts-adress {
   color: var(--primary-white-text-color);
-  background-color: var(--primary-black-color);
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -312,7 +313,6 @@ body {
 
 contacts-link-down {
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--primary-black-color);
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
